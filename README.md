@@ -12,11 +12,12 @@ A simple "Hello World" application built with Spring Boot and Docker.
    ```bash
    docker pull mateusdev26/helloworld-springboot:latest
 
+
 2. Execute the container 
   ```bash
    docker run mateus mateusdev26/helloworld-springboot:latest
 
-3. And view the Hello World
-   ```bash 
-    curl http://localhost:<your port>/hello-world #The port often is 8080
+
+3. And view the Hello World in th browser **http://localhost:8080/hello-world**
+
 
