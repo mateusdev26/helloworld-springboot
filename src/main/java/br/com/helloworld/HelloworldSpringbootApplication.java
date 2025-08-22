@@ -10,6 +10,7 @@ public class HelloworldSpringbootApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(HelloworldSpringbootApplication.class, args);
+                log.info("Now go to your browser in 'http://localhost:8080/hello-world'");
 	}
 
 }
